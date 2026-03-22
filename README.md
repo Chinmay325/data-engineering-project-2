@@ -98,8 +98,8 @@ s3://singapore-weather-pipeline/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/singapore-weather-pipeline
-cd singapore-weather-pipeline
+git clone https://github.com/Chinmay325/data-engineering-project-2
+cd data-engineering-project-2
 ```
 
 ### 2. Set up environment
