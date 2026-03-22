@@ -1,4 +1,4 @@
-# Singapore Real-Time Weather Data Pipeline
+# git clone https://github.com/Chinmay325/data-engineering-project-2
 
 An end-to-end data engineering pipeline that extracts real-time weather data from the Singapore Government API, transforms it using PySpark and Spark SQL, and loads curated analytics tables to AWS S3.
 
