@@ -1,11 +1,10 @@
-# git clone https://github.com/Chinmay325/data-engineering-project-2
+# Singapore Real-Time Weather Data Pipeline
 
 An end-to-end data engineering pipeline that extracts real-time weather data from the Singapore Government API, transforms it using PySpark and Spark SQL, and loads curated analytics tables to AWS S3.
 
 ---
 
 ## Architecture
-
 ```
 Singapore Weather API (5 endpoints)
         ↓
@@ -18,8 +17,6 @@ PySpark + Spark SQL Transformations
 AWS S3 — Curated Layer (s3://bucket/curated/weather/)
 ```
 
----
-
 ## Tech Stack
 
 - **Language:** Python 3.11
@@ -31,8 +28,6 @@ AWS S3 — Curated Layer (s3://bucket/curated/weather/)
 ---
 
 ## Data Sources
-
-Five real-time weather endpoints from [data.gov.sg](https://data.gov.sg):
 
 | Endpoint | Metric | Unit |
 |---|---|---|
@@ -74,7 +69,6 @@ Five real-time weather endpoints from [data.gov.sg](https://data.gov.sg):
 ---
 
 ## S3 Bucket Structure
-
 ```
 s3://singapore-weather-pipeline/
 ├── raw/
@@ -124,13 +118,10 @@ jupyter notebook
 ---
 
 ## Environment Variables
-
-Create a `.env` file based on `.env.example`:
-
 ```
 AWS_ACCESS_KEY_ID=your-access-key-here
 AWS_SECRET_ACCESS_KEY=your-secret-key-here
-AWS_BUCKET=singapore-weather-pipeline
+AWS_BUCKET=dataprojrect
 AWS_REGION=ap-south-1
 ```
 
