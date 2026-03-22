@@ -1,0 +1,7 @@
+pyspark==3.5.0
+findspark
+requests
+boto3
+pandas
+jupyter
+notebook
